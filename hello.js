@@ -6,6 +6,7 @@ function argvFunc(init = process.argv[2]){
     else{
         return `${init} = white?`
     }
+    // comment
 }
 
 console.log(argvFunc());
